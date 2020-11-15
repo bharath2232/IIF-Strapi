@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "add_answers",
+  "info": {
+    "name": "addAnswer"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "answer": {
+      "type": "component",
+      "repeatable": true,
+      "component": "answerby.answer"
+    }
+  }
+}

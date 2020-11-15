@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_answerby_answer_bies",
+  "info": {
+    "name": "answerBy",
+    "icon": "atlas"
+  },
+  "options": {},
+  "attributes": {
+    "userId": {
+      "type": "string"
+    },
+    "firstName": {
+      "type": "string"
+    },
+    "answer": {
+      "type": "text"
+    }
+  }
+}

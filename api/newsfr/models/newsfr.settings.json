@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "newsfr",
+  "info": {
+    "name": "newsfr",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "story": {
+      "type": "text"
+    },
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    }
+  }
+}

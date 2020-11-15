@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "asks",
+  "info": {
+    "name": "ask",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "question": {
+      "type": "string"
+    }
+  }
+}

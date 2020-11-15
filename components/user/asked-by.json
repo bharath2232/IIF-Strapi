@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_user_asked_bies",
+  "info": {
+    "name": "askedBy",
+    "icon": "anchor"
+  },
+  "options": {},
+  "attributes": {
+    "userId": {
+      "type": "string"
+    },
+    "firstName": {
+      "type": "string"
+    }
+  }
+}

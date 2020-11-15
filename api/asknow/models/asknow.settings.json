@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "asknow",
+  "info": {
+    "name": "asknow",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "answerBy": {
+      "type": "component",
+      "repeatable": true,
+      "component": "answerby.answer-by"
+    },
+    "descrption": {
+      "type": "text"
+    },
+    "userId": {
+      "type": "string"
+    },
+    "firstName": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/add-answer",
+      "handler": "add-answer.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/add-answer",
+      "handler": "add-answer.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/add-answer",
+      "handler": "add-answer.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/newsfrs",
+      "handler": "newsfr.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/newsfrs/count",
+      "handler": "newsfr.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/newsfrs/:id",
+      "handler": "newsfr.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/newsfrs",
+      "handler": "newsfr.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/newsfrs/:id",
+      "handler": "newsfr.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/newsfrs/:id",
+      "handler": "newsfr.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
